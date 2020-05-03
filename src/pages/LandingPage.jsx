@@ -59,7 +59,7 @@ export default function LandingPage() {
 
           <h3>Why?</h3>
           <P>
-            Firstly, because I think it's kinda cool, if a little scary, to visulase the location
+            Firstly, because I think it's kinda cool, if a little scary, to visulise the location
             data Google has collected on us.
           </P>
 
@@ -72,18 +72,14 @@ export default function LandingPage() {
           <h3>Why might you want to do this...?</h3>
 
           <P>
-            In times of the COVID-19 epidemic, most people can live their normal lives again as a{' '}
-            <Link href="https://www.theguardian.com/world/2020/mar/13/who-urges-countries-to-track-and-trace-every-covid-19-case">
-              trace, test, treat
-            </Link>{' '}
-            method is in place. Several Contact Tracing apps are being developed around the world
-            which will inform you if you have crossed paths with an infected person. In order to do
-            this, these apps need to know your location. They can track this from the moment you
-            install the app - but what about before you install the app?
+            Several Contact Tracing apps are being developed around the world which will inform you
+            if you have crossed paths with an infected person. In order to do this, these apps need
+            to know your location. They can track this from the moment you install the app - but
+            what about before you install the app?
           </P>
           <P>
             You can provide the app with your location history by sharing your Google Take Out
-            location history. This data is anonymised, but will likely show clusters of location
+            Location history. This data is anonymised, but will likely show clusters of location
             markers around your house and other potential areas you'd rather not share.
           </P>
 
