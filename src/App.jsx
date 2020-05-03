@@ -16,7 +16,7 @@ const Container = styled.div`
   display: flex;
   height: calc(100vh - ${(props) => props.theme.HEADER_HEIGHT});
 `
-ReactGA.initialize('UA-000000-01')
+ReactGA.initialize(process.env.REACT_APP_GA_ID || '')
 
 class App extends React.Component {
   render() {
