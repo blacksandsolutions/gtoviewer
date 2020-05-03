@@ -22,7 +22,7 @@ function Header({ clearData, importFileData, locations }) {
 
   const handleNewData = (data) => {
     importFileData(data)
-    if (location.pathname === '/') {
+    if (location.pathname !== '/map') {
       history.push('/map')
     }
   }
