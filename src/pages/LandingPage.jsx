@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Link from '../common/Link'
 import ReactPageView from '../ReactPageView'
 
 const Wrapper = styled.div`

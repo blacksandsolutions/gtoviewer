@@ -10,9 +10,10 @@ const PlacesContainer = styled.div`
 
 const PlaceWrapper = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
   margin-right: 8px;
-  width: 200px;
+  min-width: 200px;
 `
 
 function PlacesList({ places }) {

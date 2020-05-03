@@ -56,7 +56,6 @@ function ControlPanel({
   toggleTimeline,
   undo,
 }) {
-  console.log(placeInfo)
   return (
     <Container>
       <div>

@@ -48,5 +48,6 @@ export const CheckboxContainer = styled.div`
 export const Footer = styled.div`
   display: flex;
   flex-direction: column;
+  font-size: 0.8em;
   position: relative;
 `

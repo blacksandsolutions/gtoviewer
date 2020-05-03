@@ -18,7 +18,7 @@ const Address = styled.div`
 const Wrapper = styled.div`
   display: flex;
   flex: 1;
-  flex-direction: ${(props) => (props.showAddress ? 'column' : 'row')};
+  flex-direction: column;
 `
 
 export default ({ place, showAddress = false }) => {
@@ -26,7 +26,7 @@ export default ({ place, showAddress = false }) => {
   const time = format(new Date(Number(place.timestampMs)), 'HH:mm')
 
   return (
-    <Box>
+    <Box style={{ flex: 1 }}>
       <Wrapper showAddress={showAddress}>
         <Title>{place.name}</Title>
         {showAddress && <Address>{place.address}</Address>}

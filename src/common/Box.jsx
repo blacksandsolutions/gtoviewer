@@ -11,6 +11,6 @@ const Box = styled.div`
   padding: 16px;
 `
 
-export default ({ children }) => {
-  return <Box>{children}</Box>
+export default ({ children, style }) => {
+  return <Box style={style}>{children}</Box>
 }
