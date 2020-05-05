@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ReactPageView from '../ReactPageView'
+import NavLink from '../common/NavLink'
 
 const Wrapper = styled.div`
   display: flex;
@@ -66,6 +67,9 @@ export default function LandingPage() {
             But, another potential application is to allow you to review and edit location data
             before submitting it to a third party site.
           </P>
+          <h3>
+            <NavLink to="/help">Learn how to get your location data from Google</NavLink>
+          </h3>
         </div>
         <div>
           <h3>Why might you want to do this...?</h3>

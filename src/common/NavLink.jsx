@@ -1,7 +1,7 @@
-import React from 'react'
+import { NavLink as _NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
-const A = styled.a`
+const NavLink = styled(_NavLink)`
   background: none;
   border-bottom: 3px solid ${(props) => props.theme.LINK_COLOUR};
   color: inherit;
@@ -13,12 +13,4 @@ const A = styled.a`
     padding: 2px;
   }
 `
-function Link({ children, href }) {
-  return (
-    <A href={href} target="_blank">
-      {children}
-    </A>
-  )
-}
-
-export default Link
+export default NavLink
